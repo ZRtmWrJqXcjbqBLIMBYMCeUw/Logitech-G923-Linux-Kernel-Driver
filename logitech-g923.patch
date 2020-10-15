@@ -64,11 +64,9 @@
 +		hid_warn(hidpp->hid_dev, "Failed to reset all forces!\n");
 +
 +	ret = hidpp_send_fap_command_sync(hidpp, data->feature_index,
-+					  0x12,				// Not sure what to call this.
++					  0x12,				// Not sure what to call this. Values 0x10..0x1F seem to work.
 +					  NULL, 0,
 +					  &response);
-+
-+	printk(KERN_ALERT "g923_get_config: range from device = 0x%X", get_unaligned_be16(&response.fap.params[0]));
 +
 +	if (ret) {
 +		hid_warn(hidpp->hid_dev,
@@ -79,7 +77,7 @@
 +
 +	/* Read the current gain values */
 +	ret = hidpp_send_fap_command_sync(hidpp, data->feature_index,
-+					  0x02,				// Not sure what to call this.
++					  0x02,				// Not sure what to call this. Values 0x01..0x0F seem to work.
 +					  NULL, 0,
 +					  &response);
 +
