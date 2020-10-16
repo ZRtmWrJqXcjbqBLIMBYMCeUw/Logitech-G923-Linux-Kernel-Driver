@@ -8,7 +8,7 @@
  
  /* bits 2..20 are reserved for classes */
  /* #define HIDPP_QUIRK_CONNECT_EVENTS		BIT(21) disabled */
-@@ -2950,6 +2951,89 @@ static int g920_get_config(struct hidpp_
+@@ -2950,6 +2951,87 @@ static int g920_get_config(struct hidpp_
  	return g920_ff_set_autocenter(hidpp, data);
  }
  
