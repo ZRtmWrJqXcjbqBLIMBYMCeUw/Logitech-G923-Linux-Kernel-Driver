@@ -8,4 +8,5 @@ This project is intended to add support for the Logitech G923 steering wheel to 
 1. https://www.logitech.com/assets/54557/2/g920-driving-forcetm-racing-wheel.pdf
 1. https://usb.org/sites/default/files/hut1_2.pdf
 1. https://lekensteyn.nl/files/logitech/logitech_hidpp10_specification_for_Unifying_Receivers.pdf
+1. https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf
 
