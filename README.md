@@ -11,3 +11,6 @@ This project is intended to add support for the Logitech G923 steering wheel to 
 1. https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf
 1. https://who-t.blogspot.com/2018/12/understanding-hid-report-descriptors.html
 
+### Useful tools
+1. https://gitlab.freedesktop.org/libevdev/hid-tools
+
